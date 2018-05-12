@@ -43,6 +43,8 @@ public class LeaderStatusMonitor extends LeaderSelectorListenerAdapter implement
         this.client = client;
         lock = new ReentrantLock();
         cond = lock.newCondition();
+
+        LOG.info("Created LeaderStatusMonitor");
     }
 
     void start() {
