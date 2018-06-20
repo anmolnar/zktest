@@ -11,6 +11,14 @@
 
     <artifactId>zoomba</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.zookeeper</groupId>
+            <artifactId>zookeeper</artifactId>
+            <version>3.4.12</version>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
